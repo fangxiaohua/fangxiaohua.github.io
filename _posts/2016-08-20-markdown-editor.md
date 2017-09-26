@@ -46,12 +46,11 @@ author: fangxiaohua
 
 ### 2. 列表
 `无序列表`只需要在文字前加上 `- `或` *` 
-
-![](https://fangxiaohua.github.io/blog/images/post/markdown-editor/list_ul.png)
+![](https://fangxiaohua.github.io/blog/images/post/markdown-editor/list_ol.png)
 
 `有序列表`则直接在文字前加 `1.` `2.` `3.`
 
-![](https://fangxiaohua.github.io/blog/images/post/markdown-editor/list_ol.png)
+![](https://fangxiaohua.github.io/blog/images/post/markdown-editor/list_ul.png)
 
 符号要和文字之间加上一个字符的`空格`
 
@@ -140,7 +139,7 @@ _斜体_    *斜体*
 ### 9. 段落
 使用一个或多个空行分隔内容段来生成段落。
 
-### 11. 更多
+### 10. 更多
 [md 中文语法说明](http://wowubuntu.com/markdown/#list)
 
 ## 编辑器推荐
