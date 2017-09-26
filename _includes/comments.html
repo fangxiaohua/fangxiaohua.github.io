@@ -1,0 +1,18 @@
+<!--使用gitalk来做评论功能-->
+<div id="gitalk-container"></div>
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<script type="text/javascript">
+    var gitalk = new Gitalk({
+        clientID: "{{site.GitClientID}}",
+        clientSecret: "{{site.GitClientSecret}}",
+        repo: "{{site.GitRepo}}",
+        owner: "{{site.GitOwner}}",
+        admin: ["{{site.GitOwner}}"],
+        // facebook-like distraction free mode
+        distractionFreeMode: false
+    });
+
+    gitalk.render('gitalk-container')
+</script>

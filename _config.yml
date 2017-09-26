@@ -1,0 +1,72 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+
+# Sys settings
+#plugins:     ./_plugins
+destination: ./_site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://fangxiaohua.github.io/" # the base hostname & protocol for your site
+permalink: /:year/:month/:day/:title/
+port: 4000
+sass:
+    sass_dir: _sass
+    style: compressed
+
+# excerpt 摘要标记
+excerpt_separator: "\n\n\n\n"
+
+# Site settings
+web_title: fxh
+web_desc: 我的码农之旅
+welcome_title: Welcome to fxh Blog!
+welcome_desc: 我的码农之旅
+
+# other links
+#twitter_username: gaohaoyang126
+#facebook_username: gaohaoyang.water
+github_username:  fangxiaohua
+email: abc2710712@qq.com
+#weibo_username: 3115521wh
+#zhihu_username: gaohaoyang
+#linkedIn_username: gaohaoyang
+#dribbble_username:
+
+description_footer: 本站记录我编码之旅的沿途风景！
+
+# comments 使用github Gitalk
+GitClientID: 2ce31ef2107e95c828a0
+GitClientSecret: 6416a8ef02918ece6f10acfd30efc9429bd16411
+GitRepo: fangxiaohua.github.io
+GitOwner: fangxiaohua
+
+
+
+# statistic analysis 统计代码
+# 百度统计 id，将统计代码替换为自己的百度统计id，即
+# hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
+# xxxxx字符串
+baidu_tongji_id: 68f839df5025eb2aa098dbfe90d04e71
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+
+# url
+category_dir: category/
+tag_dir: tag/
+
+
+
+# paginate
+gems: [jekyll-paginate]
+paginate: 6
+paginate_path: "blog/page:num"
