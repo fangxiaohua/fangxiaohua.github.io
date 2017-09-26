@@ -46,6 +46,7 @@ author: fangxiaohua
 
 ### 2. 列表
 `无序列表`只需要在文字前加上 `- `或` *` 
+
 ![](https://fangxiaohua.github.io/blog/images/post/markdown-editor/list_ol.png)
 
 `有序列表`则直接在文字前加 `1.` `2.` `3.`
