@@ -50,8 +50,7 @@ GitOwner: fangxiaohua
 # 百度统计 id，将统计代码替换为自己的百度统计id，即
 # hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
 # xxxxx字符串
-baidu_tongji_id: 68f839df5025eb2aa098dbfe90d04e71
-
+baidu_tongji_id: 74d1a11481e042da503ebd4caff386c6 
 # Build settings
 markdown: kramdown
 
